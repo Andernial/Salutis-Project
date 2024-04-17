@@ -1,0 +1,20 @@
+
+
+.navbar{
+    background-color:  #A62934;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-nav{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container{
+    justify-content: space-between;
+}
