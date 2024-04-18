@@ -1,12 +1,19 @@
+import "./third.css"
 import { Col, Container, Row } from "react-bootstrap";
 
-export function MiddlePage(){
+export function ThirdPage(){
     return(
         <Container fluid className="my-5 text-dark" >
         <section id="presentacion">
 
            
-        <Row className="justify-content-center">
+        <Row className="custom-section justify-content-center">
+            
+            <Col sm={4} md={3} lg={5}>
+                <div className="main-image">
+                    <img src="src/assets/images/hospital.png" alt="imagem header" />
+                </div>
+            </Col>
             <Col sm={8} md={6} lg={6}>
                 <div className="main-text">
                     <h1 className="display-1 text-dark">Olá mundo</h1>
@@ -15,11 +22,6 @@ export function MiddlePage(){
                 </div>
             </Col>
 
-            <Col sm={4} md={3} lg={3}>
-                <div className="main-image">
-                    <img src="src/assets/images/imagem-main.png" alt="imagem header" />
-                </div>
-            </Col>
         </Row>
         </section>
     </Container>
