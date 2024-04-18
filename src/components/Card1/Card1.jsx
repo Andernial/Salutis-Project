@@ -14,7 +14,8 @@ export function Card1(){
                     <img src="src/assets/images/hospital.png" alt="imagem header" />
                 </div>
             </Col>
-            <Col sm={8} md={6} lg={6}>
+
+            <Col sm={8} md={6} lg={6} className="d-flex justify-content-center">
                 <div className="card-text">
                     <h1 className="display-5 text-dark">Olá mundo</h1>
 

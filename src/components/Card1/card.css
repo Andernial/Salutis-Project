@@ -17,5 +17,6 @@ img {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    width: 60%;
     
 }
