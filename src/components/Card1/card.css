@@ -1,0 +1,21 @@
+.custom-section {
+    background-color: #ffcf8c; 
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img {
+    height: 40vh;
+}
+
+
+
+.card-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}

@@ -1,14 +1,14 @@
 import Header from "../components/Header/Header";
 import "./home.css"
 import { MiddlePage } from "../components/MiddlePage/MiddlePage";
-import { ThirdPage } from "../components/ThirdPage/ThirdPage";
+import { Card1} from "../components/Card1/Card1";
 
 export default function Home() {
     return (
         <>
             <Header />
             <MiddlePage />
-            <ThirdPage />
+            <Card1 />
         </>
     )
 }
