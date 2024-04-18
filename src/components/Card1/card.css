@@ -1,13 +1,16 @@
 .custom-section {
     background-color: #ffcf8c; 
-    height: 80vh;
+    min-height: 80vh;
+    max-height: fit-content;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
+    gap: 30px;
     
 }
 
-img {
-    height: 40vh;
+.img-card {
+    height: 200px;
 }
 
 
@@ -17,6 +20,6 @@ img {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    width: 60%;
+
     
 }

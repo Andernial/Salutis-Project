@@ -9,13 +9,13 @@ export function Card1(){
            
         <Row className="custom-section justify-content-center">
             
-            <Col sm={4} md={3} lg={5}>
+            <Col sm={8} md={3} lg={5} className="d-flex justify-content-center">
                 <div className="card-image">
-                    <img src="src/assets/images/hospital.png" alt="imagem header" />
+                    <img src="src/assets/images/hospital.png" alt="imagem header" className="img-card"/>
                 </div>
             </Col>
 
-            <Col sm={8} md={6} lg={6} className="d-flex justify-content-center">
+            <Col sm={3} md={6} lg={6} className="d-flex justify-content-center">
                 <div className="card-text">
                     <h1 className="display-5 text-dark">Olá mundo</h1>
 
