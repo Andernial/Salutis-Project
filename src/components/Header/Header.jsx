@@ -15,6 +15,8 @@ function Header() {
           <Nav.Link href="#local">Local</Nav.Link>
           <Nav.Link href="#equipaments">Equipaments</Nav.Link>
           <Nav.Link href="#specialists">Specialists</Nav.Link>
+          <Nav.Link href="#coverage">Coverage</Nav.Link>
+          
         
         </Nav>
       </Navbar.Collapse>
