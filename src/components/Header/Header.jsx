@@ -5,7 +5,7 @@ import "./header.css"
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary" fixed="top">
     <Container >
       <Navbar.Brand href="#home" className='text-white'>Salutis</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

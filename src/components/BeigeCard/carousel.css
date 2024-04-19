@@ -1,0 +1,9 @@
+.custom-container2 {
+    background-color: #F2CEA2;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 2rem;
+   
+}

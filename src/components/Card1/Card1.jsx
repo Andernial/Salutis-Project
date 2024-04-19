@@ -19,7 +19,7 @@ export function Card1(){
                 <div className="card-text">
                     <h1 className="display-5 text-dark">Olá mundo</h1>
 
-                    <p className="custom-font-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat eleifend lacus, nec varius justo laoreet id. Integer ut mi sed libero pharetra lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam posuere mauris id leo ultrices, eu dictum dolor sagittis. Nulla vel aliquet tortor. Maecenas nec odio sapien. Morbi rutrum augue nec sapien commodo, sed cursus mauris tincidunt. Cras non luctus purus, quis fermentum leo. Duis laoreet felis at urna auctor, vitae ultricies justo blandit. Vestibulum et ex arcu. Aliquam tincidunt tristique sollicitudin. Suspendisse tincidunt vitae dolor intexto aleatorio que vai cobrir essa parte embaixo do titulo maior</p>
+                    <p className="custom-font-size text-sm-md text-lg-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat eleifend lacus, nec varius justo laoreet id. Integer ut mi sed libero pharetra lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam posuere mauris id leo ultrices, eu dictum dolor sagittis. Nulla vel aliquet tortor. Maecenas nec odio sapien. Morbi rutrum augue nec sapien commodo, sed cursus mauris tincidunt. Cras non luctus purus, quis fermentum leo. Duis laoreet felis at urna auctor, vitae ultricies justo blandit. Vestibulum et ex arcu. Aliquam tincidunt tristique sollicitudin. Suspendisse tincidunt vitae dolor intexto aleatorio que vai cobrir essa parte embaixo do titulo maior</p>
                 </div>
             </Col>
 

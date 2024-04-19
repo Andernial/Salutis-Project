@@ -17,7 +17,7 @@ export function MiddlePage(){
 
             <Col sm={4} md={3} lg={3}>
                 <div className="main-image">
-                    <img src="src/assets/images/imagem-main.png" alt="imagem header" className="img-fluid" />
+                    <img src="src/assets/images/imagem-main.png" alt="imagem header" className=" img-header img-fluid" />
                 </div>
             </Col>
         </Row>

@@ -1,0 +1,10 @@
+.custom-container3 {
+    background-color: #D93636;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 5rem;
+   
+}
+
