@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'Montserrat';
-    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+    font-family: "Cormorant", serif;
+    src: url(https://fonts.gstatic.com);
 }
 
 *{
-    font-family: 'Montserrat';
+    font-family: "Cormorant", serif;
 
 }
