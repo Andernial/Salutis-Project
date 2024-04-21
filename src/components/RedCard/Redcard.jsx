@@ -4,7 +4,7 @@ import "./redcard.css"
 export function CardRed({id,photo,title,text}) {
   return (
     <section id={id}>
-        <Container fluid className="custom-container3 font-weight-600">
+        <Container fluid className="custom-container3 ">
         <Row>
 
             <Col className="custom-col p-6 text-white " sm={7}>
