@@ -9,7 +9,7 @@ export function CardRed({id,photo,title,text}) {
 
             <Col className="custom-col p-6" sm={7}>
             <h1 className="display-5 text-center ">{title}</h1>
-            <p className="lead p-2">{text}</p>
+            <div className="lead p-2">{text}</div>
             </Col>
 
             <Col className="p-6" sm={5}>
