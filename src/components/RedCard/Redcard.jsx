@@ -1,9 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./redcard.css"
 //eslint-disable-next-line react/prop-types
-export function CardRed({photo,title,text}) {
+export function CardRed({id,photo,title,text}) {
   return (
-    <section id="equipaments">
+    <section id={id}>
         <Container fluid className="custom-container3">
         <Row>
 

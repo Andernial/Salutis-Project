@@ -2,9 +2,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./carousel.css"
 
 // eslint-disable-next-line react/prop-types
-export function CardBeige({photo,title,text}) {
+export function CardBeige({id,photo,title,text}) {
   return (
-    <section id="local">
+    <section id={id}>
     <Container fluid className="custom-container2">
       
         <Row>
