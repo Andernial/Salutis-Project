@@ -21,12 +21,12 @@ export default function Home() {
             The institution seeks to promote the health and well-being of the community, offering accessible and quality health services. Saluts Hospital is the right place to take care of your health and your family&apos;s health </p> </>} />
 
             <CardRed id={"equipaments"} photo={<img src="./src\assets\images\Group 12.png" alt="hospital" className="img-fluid" />}
-                title={<>Infrastructure and equipment</>} text={<><p>a modern infrastructure, designed to provide comfort, safety and efficiency in patient care. The hospital has:
+                title={<>Infrastructure and equipment</>} text={<p>a modern infrastructure, designed to provide comfort, safety and efficiency in patient care. The hospital has:
             Spacious and comfortable facilities: Large and well-lit inpatient rooms, equipped with electric beds, TV and Wi-Fi internet.
             State-of-the-art surgical center: Operating rooms equipped with high-tech equipment, including robotic surgical tables, multiparameter monitors and advanced imaging systems.
             Intensive Care Unit (ICU): Equipped with latest generation respirators, cardiac monitors and hemodialysis equipment.
             Diagnostic Imaging Center: Performs computed tomography, magnetic resonance imaging, ultrasound and X-ray exams, using state-of-the-art equipment.
-            Clinical analysis laboratory: Performs a wide range of laboratory tests, ensuring accurate and fast diagnostics</p></>  }/>
+            Clinical analysis laboratory: Performs a wide range of laboratory tests, ensuring accurate and fast diagnostics</p> }/>
 
             <CardBeige id={"specialists"} photo={<img src="./src\assets\images\Rectangle 14.png" alt="professional" className="img-fluid" />}
                 title={<>A benchmark in the region</>}
@@ -44,7 +44,7 @@ export default function Home() {
             <CardRed id={"coverage"} photo={<img src="./src\assets\images\Group 20.png" alt="hospital" className="img-fluid" />}
                 title={<>Check your health insurance coverage</>} text={
                     <>
-                        <p>To ensure that you receive the best possible medical care, it is important to check if your health insurance plan provides coverage for the hospital.
+                        <p className="col-sm-12 mt-3">To ensure that you receive the best possible medical care, it is important to check if your health insurance plan provides coverage for the hospital.
                             Contact your health insurance provider to confirm if the hospital is included in their network. Provide the hospital&apos;s name and your health insurance identification number.
                             If the hospital is not covered by your current plan, you may want to consider switching to a plan that does offer coverage. This will ensure that you have access to quality medical care when you need it most.
                             Do not hesitate to contact the hospital or your health insurance provider for more information on coverage and plan options.</p>

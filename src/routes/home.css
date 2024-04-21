@@ -5,5 +5,13 @@
 
 *{
     font-family: "Cormorant", serif;
-    font-weight:600;
+    font-weight:550;
 }
+img { 
+    width: 747px;
+    height: 742;
+
+}
+.custom-width {
+    width: 610px;
+  }

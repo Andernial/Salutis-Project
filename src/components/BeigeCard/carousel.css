@@ -1,8 +1,12 @@
 
 
 h1{
+    
     font-weight:600;
 }
+.custom-width {
+    width: 410px;
+  }
 
 .custom-container2 {
     background-color: #F2CEA2;

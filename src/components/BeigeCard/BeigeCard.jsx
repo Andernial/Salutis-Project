@@ -11,7 +11,7 @@ export function CardBeige({id,photo,title,text}) {
             {photo}
             </Col>
 
-            <Col className="custom-col p-6 " sm={7}>
+            <Col className="custom-col p-6  " sm={7}>
             <h1 className="display-5 text-center ">{title}</h1>
             <div className="lead p-2 ">{text}</div>
             </Col>
