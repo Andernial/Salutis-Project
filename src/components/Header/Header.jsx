@@ -16,6 +16,7 @@ function Header() {
           <Nav.Link href="#equipaments">Equipaments</Nav.Link>
           <Nav.Link href="#specialists">Specialists</Nav.Link>
           <Nav.Link href="#coverage">Coverage</Nav.Link>
+          <Nav.Link href="#devs">Contact Us</Nav.Link>
           
         
         </Nav>
