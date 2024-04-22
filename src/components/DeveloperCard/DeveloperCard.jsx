@@ -12,7 +12,7 @@ export function DeveloperCard({img,name,title,linkgit,linkedin,email}){
           </Card.Text>
 
           <Card.Text className='lead'>
-            email:  <Card.Link className='text-white' href={`mailto:${email}`}>{email}</Card.Link>
+            email:  <Card.Link className='text-white ' href={`mailto:${email}`}>{email}</Card.Link>
           </Card.Text>
           
           

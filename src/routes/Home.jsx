@@ -9,6 +9,7 @@ import { CardBox } from "../components/CardsBox/CardsBox";
 import { DeveloperCard } from "../components/DeveloperCard/DeveloperCard";
 
 import Anderson from "../assets/images/Anderson.jpeg"
+import Ingrid from "../assets/images/Ingrid.jpg"
 
 
 export default function Home() {
@@ -59,12 +60,12 @@ export default function Home() {
                         </ul>
                     </>
                 } />
-
-                <CardBox >
+                  <CardBox >
                     <DeveloperCard name='Anderson Carlos' title='FullStack Developer' linkedin="https://www.linkedin.com/in/anderson-carlos-dev/" linkgit="https://github.com/Andernial" img={Anderson} email="loonander@gmail.com" />
-                    <DeveloperCard name='Ingrid Oliveira' title='FullStack Developer' linkedin="https://www.linkedin.com/in/ingrid-oliveiradev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" linkgit="https://github.com/Andernial" img={Anderson} />
-                    <DeveloperCard name='Anderson' title='FullStack Developer' linkedin="https://www.linkedin.com/in/anderson-carlos-dev/" linkgit="https://github.com/Andernial" img={Anderson} />
+                    <DeveloperCard name='Ingrid Oliveira' title='FullStack Developer' linkedin="https://www.linkedin.com/in/ingrid-oliveiradev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" linkgit="https://github.com/iingridliveira" img={Ingrid} email="ingridoliveirasilva2002@gmail.com" />
+                    <DeveloperCard name='Daniel' title='FullStack Developer' linkedin="https://www.linkedin.com/in/anderson-carlos-dev/" linkgit="https://github.com/Andernial"  />
                 </CardBox>
+              
             <Footer />
         </>
     )
