@@ -4,7 +4,7 @@ import "./card.css"
 export function DeveloperCard({img,name,title,linkgit,linkedin,email}){
     return(
         <Card style={{ width: '18rem' , background: '#D93636'}} className='shadow'>
-        <Card.Img variant="top" src={img}  />
+        <Card.Img variant="top" src={img} className='image-dev' />
         <Card.Body className='text-white'>
           <Card.Title>{name}</Card.Title>
           <Card.Text className='lead'>
