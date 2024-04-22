@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import "./carousel.css"
+import "./beigeCard.css"
 
 // eslint-disable-next-line react/prop-types
 export function CardBeige({id,photo,title,text}) {
