@@ -10,6 +10,7 @@ import { DeveloperCard } from "../components/DeveloperCard/DeveloperCard";
 
 import Anderson from "../assets/images/Anderson.jpeg"
 import Ingrid from "../assets/images/Ingrid.jpg"
+import Daniel from "../assets/images/Daniel.jpg"
 
 
 export default function Home() {
@@ -63,7 +64,7 @@ export default function Home() {
                   <CardBox >
                     <DeveloperCard name='Anderson Carlos' title='FullStack Developer' linkedin="https://www.linkedin.com/in/anderson-carlos-dev/" linkgit="https://github.com/Andernial" img={Anderson} email="loonander@gmail.com" />
                     <DeveloperCard name='Ingrid Oliveira' title='FullStack Developer' linkedin="https://www.linkedin.com/in/ingrid-oliveiradev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" linkgit="https://github.com/iingridliveira" img={Ingrid} email="ingridoliveirasilva2002@gmail.com" />
-                    <DeveloperCard name='Daniel' title='FullStack Developer' linkedin="https://www.linkedin.com/in/anderson-carlos-dev/" linkgit="https://github.com/Andernial"  />
+                    <DeveloperCard name='Daniel Alves' title='FullStack Developer' linkedin="https://www.linkedin.com/in/daniel-alves-488143279/" linkgit="https://github.com/zedaesquina1" img={Daniel} email="daniel.p.alves2006@gmail.com"  />
                 </CardBox>
               
             <Footer />
