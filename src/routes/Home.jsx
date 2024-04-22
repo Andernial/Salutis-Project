@@ -51,14 +51,7 @@ export default function Home() {
                             Contact your health insurance provider to confirm if the hospital is included in their network. Provide the hospital&apos;s name and your health insurance identification number.
                             If the hospital is not covered by your current plan, you may want to consider switching to a plan that does offer coverage. This will ensure that you have access to quality medical care when you need it most.
                             Do not hesitate to contact the hospital or your health insurance provider for more information on coverage and plan options.</p>
-                        <ul>
-                            <li>
-                                Telephone:(123) 456-7890
-                            </li>
-                            <li>
-                                Email: atendimento@hospitalficticio.com.br
-                            </li>
-                        </ul>
+                       
                     </>
                 } />
                   <CardBox >
