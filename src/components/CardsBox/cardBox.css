@@ -1,0 +1,20 @@
+
+.box-of-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+@media screen and (max-width:1024px) {
+    .box-of-cards{
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+    }
+}

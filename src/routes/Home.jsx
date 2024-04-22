@@ -5,6 +5,10 @@ import { Presentation } from "../components/Presentation/Presentation";
 import "./home.css"
 import { Footer } from "../components/Footer/footer";
 import { CardBeige } from "../components/BeigeCard/BeigeCard";
+import { CardBox } from "../components/CardsBox/CardsBox";
+import { DeveloperCard } from "../components/DeveloperCard/DeveloperCard";
+
+import Anderson from "../assets/images/Anderson.jpeg"
 
 
 export default function Home() {
@@ -55,6 +59,12 @@ export default function Home() {
                         </ul>
                     </>
                 } />
+
+                <CardBox >
+                    <DeveloperCard name='Anderson Carlos' title='FullStack Developer' linkedin="https://www.linkedin.com/in/anderson-carlos-dev/" linkgit="https://github.com/Andernial" img={Anderson} email="loonander@gmail.com" />
+                    <DeveloperCard name='Ingrid Oliveira' title='FullStack Developer' linkedin="https://www.linkedin.com/in/ingrid-oliveiradev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" linkgit="https://github.com/Andernial" img={Anderson} />
+                    <DeveloperCard name='Anderson' title='FullStack Developer' linkedin="https://www.linkedin.com/in/anderson-carlos-dev/" linkgit="https://github.com/Andernial" img={Anderson} />
+                </CardBox>
             <Footer />
         </>
     )
