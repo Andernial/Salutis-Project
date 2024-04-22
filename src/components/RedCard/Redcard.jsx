@@ -7,12 +7,12 @@ export function CardRed({id,photo,title,text}) {
         <Container fluid className="custom-container3 ">
         <Row>
 
-            <Col className="custom-col p-6 text-white " sm={7}>
+            <Col className="custom-col p-4 text-white " sm={12} md={7}>
             <h1 className="display-5 text-center ">{title}</h1>
             <div className="lead p-2">{text}</div>
             </Col>
 
-            <Col className="p-6" sm={5}>
+            <Col className="p-6" sm={6} md={5}>
             {photo}
             </Col>
           
